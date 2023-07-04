@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.container h1{
+ font-size: 100px;
+ color: gray;
+}
+.container div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.container button{
+   width: 80px;
+   font-size: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   background-color: green;
+   border: none;
+   border-radius: 5px;
+}
+.container button:hover{
+    opacity: .9;
+}
+.container button:last-child{
+    background-color: red;
+}
