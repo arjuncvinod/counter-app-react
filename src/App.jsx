@@ -17,8 +17,8 @@ function decrease(){
         <div className="container">
             <h1>{count}</h1>
             <div>
-            <button onClick={increase}>+</button>
             <button onClick={decrease}>-</button>
+            <button onClick={increase}>+</button>
             </div>
         </div>
     )
